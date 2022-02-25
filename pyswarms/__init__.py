@@ -14,8 +14,6 @@ __author__ = """Lester James V. Miranda"""
 __email__ = "ljvmiranda@gmail.com"
 __version__ = "1.3.0"
 
-print("PySwarms __init__")
-
 from .single import global_best, local_best, general_optimizer
 from .discrete import binary
 from .utils.decorators import cost
